@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius:5px;
+
+}
+
+input ,select {
+    &:focus {
+        outline: none;
+    }
+}
+
+main{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    padding: 10px;
+}
+.task{
+    padding: 10px;
+    text-align: center;
+}
+h1{
+    color: aqua;
+    text-shadow: 0 0 5px aqua ,0 0 15px aqua;
+    padding: 15px;
+    margin-bottom: 30px;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.student-info{
+    padding: 10px;
+    border-radius:5px ;
+    box-shadow: 0 0 5px aqua, 0 0 15px white, 0 0 25px aqua;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: display 1s;
+}
+
+
+input{
+    padding: 10px;
+    border-radius:5px ;
+    margin: 10px auto;
+    font-size: 18px;
+}
+button{
+    color: aqua;
+    padding: 10px;
+    margin: 5px;
+    border-radius:30px;
+    font-size: 18px;
+    border: 1px aqua solid;
+    background-color: transparent;
+    display: block;
+    cursor: pointer;
+}
+button:hover{
+    text-shadow: 0 0 10px aqua ,0 0 15px aqua;
+}
+label{
+    padding: 10px;
+    color: white;
+}
+
+
+
+
+.table{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.table table{
+    border: 2px aqua solid;
+    color: aqua;
+    /* visibility: hidden; */
+}
+
+.table table thead{
+    font-size: 25px;
+}
+.table table tbody{
+    font-size: 20px;
+    color: white;
+}
+
+table td , table th {
+    border: 2px solid aqua;
+    padding: 15px;
+}
+
+
